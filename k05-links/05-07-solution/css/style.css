@@ -1,0 +1,109 @@
+/* Stylesheet für die Übungswebsite */
+
+/* Allgemeine Stile für die gesamte Webseite */
+html {
+  background-color: whitesmoke;
+  color: black;
+  scroll-behavior: smooth;
+}
+
+/* Stile für das body-Element */
+body {
+  background-color: white;
+  color: black;
+  font-family: sans-serif;
+  max-width: 600px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+/* Stile für den Header */
+header {
+  padding: 2rem 1rem;
+}
+
+/* Stile für den ersten Absatz im Header */
+header p:first-child {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+/* Stile für alle Absätze im Header */
+header p {
+  margin: 0;
+}
+
+main {
+  line-height: 1.5;
+  padding: 0 1rem; 
+  margin-bottom: 2rem;
+}
+
+h1 {
+  line-height: normal;
+  font-weight: 500;
+}
+
+a {
+  text-decoration-line: underline; 
+  text-decoration-style: solid; 
+  text-decoration-thickness: 1px; 
+  text-underline-offset: 0.25em; 
+} 
+a:hover, a:focus {
+  text-decoration-style: dashed; 
+}
+
+nav {
+  background-color: black;
+  padding: 0 1rem; 
+  margin-bottom: 2rem; 
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0; 
+  margin: 0; 
+}
+
+nav li {
+  flex: 1; 
+  max-width: 7rem;
+  border-left: 1px solid white; 
+}
+nav li:last-child {
+  border-right: 1px solid white; 
+}
+
+nav a {
+  display: block; 
+  color: white; 
+  text-decoration-line: none;
+  text-align: center;
+  padding: 0.5rem 1rem; 
+}
+nav a[aria-current],
+nav a:hover, 
+nav a:focus {
+  background-color: #07b;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+
+footer {
+  text-align: right; 
+  background-color: black;
+  color: white;
+  font-size: smaller;
+  padding: 0.5rem 1rem;
+}
+footer a {
+  color: white;
+  text-decoration-line: none;
+}
+footer a:hover, 
+footer a:focus {
+  text-decoration-line: underline; 
+  text-decoration-style: solid; 
+}

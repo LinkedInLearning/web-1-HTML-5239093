@@ -1,0 +1,16 @@
+Schreibe CSS. 
+
+Die Webseite soll mit Farbnamen einen sehr hellen grauen Hintergrund und schwarze Schrift bekommen. Sonst keine weiteren Deklarationen.
+
+Das body-Element soll wie folgt gestaltet werden: 
+1. Hintergrund weiß, Schrift schwarz und ohne Serifen. 
+2. Breite von maximal 600px.  
+3. Höhe von ganz oben bis ganz unten.
+4. Body auf der Webseite zentriert, die Inhalte aber nicht. 
+Sonst keine weiteren Deklarationen.
+
+Der Header hat ein Padding von oben und unten 2rem sowie links und rechts 1rem. 
+
+Die Schrift im ersten Absatz im <header> soll 2,5x groß sein wie die für das Stammelement <html>. 
+
+Beide Absätze im Header sollen keinen Abstand nach oben oder nach unten haben. Sonst keine weiteren Deklarationen.

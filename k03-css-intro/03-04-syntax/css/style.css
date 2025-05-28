@@ -1,0 +1,13 @@
+/* Stylesheet für die Übungswebsite */
+
+body {
+    background-color: whitesmoke;
+    color: black;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: steelblue;
+    color: white; 
+    padding: 1rem; 
+}
